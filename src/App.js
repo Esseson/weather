@@ -15,13 +15,17 @@ class App extends Component {
           </div>
           <h3>Email Address</h3>
           <input></input>
+          <div>
           <button>Submit</button>
+        </div>
           <div>
             <p>
               <h3>Location</h3>
               </p>
             <input></input>
+            <div>
             <button>Submit</button>
+          </div>
           </div>
         </div>
         </p>
