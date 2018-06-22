@@ -1,6 +1,19 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+import firebase from "firebase";
+
+
+// Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyBKSCJVzjigj2DBPapdW6OF_o2DEl3Jy-o",
+    authDomain: "weather-app-ddb2e.firebaseapp.com",
+    databaseURL: "https://weather-app-ddb2e.firebaseio.com",
+    projectId: "weather-app-ddb2e",
+    storageBucket: "weather-app-ddb2e.appspot.com",
+    messagingSenderId: "176332150030"
+  };
+  firebase.initializeApp(config);
+
 
 class App extends Component {
   render() {
