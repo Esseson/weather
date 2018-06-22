@@ -6,12 +6,13 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Weather app Rwanda</h1>
-        </header>
         <p className="App-intro">
         <div>
+          <div>
+<p>
+  <h1>Weather application</h1>
+</p>
+          </div>
           <h3>Email Address</h3>
           <input></input>
           <button>Submit</button>
